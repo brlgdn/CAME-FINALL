@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--clr-light);
+    padding-top: 80px;
+    overflow-x: hidden; 
+}
+
+:root {
+    --clr-primary: #4080a5;
+    --clr-dark: #1c2120;
+    --clr-light: #faf6f4;
+    --clr-dark-gray: #7B7B7B;
+}
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/*----------- CSS Header Section -----------*/
+header {
+    background-color: #2596be;
+    padding: 5px 0; 
+    text-align: center;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.navBar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.navBar li {
+    display: inline;
+    margin: 0 10px; 
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; 
+}
+
+/*----------- CSS Members Section -----------*/
+#members{
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+#members h1{
+    padding-bottom: 1.5%;
+    font-weight: 680;
+    color: var(--clr-primary);
+}
+
+#members h2{
+    padding-top: 3%;
+}
+
+#members img{
+    width: 12rem;
+    height: 13rem;
+    display: block; 
+    margin: 0 auto; 
+    outline: 3px solid #2596be;
+}
+
+.mem1, .mem2{
+    display: inline-block; 
+    vertical-align: top;
+    text-align: center;
+    margin: 0 45px; 
+    padding-bottom: 4%;
+}
+
+.mem1 p, .mem2 p {
+    word-break: break-word;
+    max-width: 400px;
+     margin: 0 auto; 
+}
+
+.mem3, .mem4, .mem5{
+    display: inline-block; 
+    vertical-align: top;
+    text-align: center;
+    margin: 0 35px; 
+}
+
+/*----------- CSS Group Highlights Section -----------*/
+#grp_hglights {
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#grp_hglights h1 {
+    padding-bottom: 1.5%;
+    font-weight: 680;
+    color: var(--clr-primary);
+}
+
+#grp_hglights img {
+    width: 30rem; 
+    height: auto; 
+}
+
+.hl1,
+.hl2,
+.hl3 {
+    margin: 15px; 
+    padding: 0; 
+    outline: 2px solid #2596be; 
+}
+
+
+/*----------- CSS Tools Section -----------*/
+#tools{
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+#tools h1{
+    padding-bottom: 1.5%;
+    font-weight: 680;
+    color: var(--clr-primary);
+}
+
+#tools img{
+    max-width: 18rem;
+}
+
+.tl1, .tl2, .tl3, .tl4{
+    display: inline-block; 
+    margin: 15px; 
+    padding: 0; 
+}
+
+/*----------- CSS Contacts Section -----------*/
+#contacts .row {
+    text-align: center;
+    font-size: 15px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+#contacts h1, .mt-3-name {
+    padding-bottom: 1.5%;
+    color: var(--clr-primary);
+    font-weight: 680;
+}
+
+#contacts .mt-3-name {
+    font-size: 25px;
+}
+
+#contacts .row p {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+#contacts-mark-simon-buensalido, #contacts-lee-matthew-p-borlagdan, #contacts-albert-ybañez, #contacts-adreana-manrique, #contacts-mikka-ramirez {
+    border: 1px solid #bbbb9f;
+    background-color: #f8f1e2;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
+}
+
+#contact-form label {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+}
+
+#contact-form h1 {
+    font-weight: 680;
+    color: var(--clr-primary);
+}
+
+#contact-form form {
+    max-width: 70rem;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+#contact-form form .form-group input, #contact-form form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--clr-dark);
+    background: #f8f1e2;
+    border-radius: .8rem;
+    margin: .2rem 0;
+    box-shadow: 0 .1rem .5rem var(--clr-dark);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#contact-form form textarea {
+    resize: none;
+}
+
+.btn-primary {
+    width: fit-content;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    background-color: var(--clr-primary);
+    border-radius: 60px;
+    color: var(--clr-light);
+    border: none;
+}
+
+
+/*----------- CSS Contact Form Section -----------*/
+#contact-form label {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+}
+
+#contact-form h1 {
+    font-weight: 680;
+    color: var(--clr-primary);
+}
+
+#contact-form form {
+    max-width: 70rem;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+#contact-form form .form-group input, #contact-form form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--clr-dark);
+    background: #f8f1e2;
+    border-radius: .8rem;
+    margin: .2rem 0;
+    box-shadow: 0 .1rem .5rem var(--clr-dark);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#contact-form form textarea {
+    resize: none;
+}
+
+.btn-primary {
+    width: fit-content;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    background-color: var(--clr-primary);
+    border-radius: 60px;
+    color: var(--clr-light);
+    border: none;
+}
+
+.btn-primary::after {
+    width: fit-content;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    background-color: var(--clr-primary);
+    border-radius: 60px;
+    color: var(--clr-dark);
+    border: none;
+}
